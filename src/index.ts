@@ -3,11 +3,12 @@
  * Licensed under the MIT License. See License.txt in the project root for license information.
  * ------------------------------------------------------------------------------------------ */
 export * from './disposable';
-export * from './commands';
-export * from './console-window';
-export * from './languages';
-export * from './workspace';
-export * from './converter';
 export * from './services';
-export * from 'vscode-base-languageclient/lib/base';
-export * from 'vscode-base-languageclient/lib/connection';
+export * from './connection';
+export * from './monaco-language-client';
+export * from './monaco-commands';
+export * from './console-window';
+export * from './monaco-languages';
+export * from './monaco-workspace';
+export * from './monaco-services';
+export * from './monaco-converter';
